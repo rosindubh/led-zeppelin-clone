@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: url(./images/background-for-site-1.png);
+}
+/*HEADER*/
+.logo {
+    /*background-color: black;*/
+    display: flex;
+    justify-content: center;
+    padding-top: 65px;
+}
+/*MERCHANDISE CAPS AND HOODIES*/
+.main {
+    padding-top: 30px;
+    /*background-color: black;*/
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+}
+
+/*FOOTER*/
+.footer {
+ /*   background-color: black;*/
+    height: 40vh;
+}
+/*FOUR SYMBOLS*/
+.symbols {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.swansong {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+/*BRAND NEW HODDIES AND HATS ONLINE*/
+.newmerch {
+    padding-top: 10px;
+    padding-bottom: 50px;
+/*    background-color: black;*/
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+/*BUTTONS*/
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap; 
+    padding-bottom: 60px;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.btn1 {
+    padding: 9px;
+    background-color: blanchedalmond;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.btn2 {
+    background-color: dimgray;
+    font-size: 15px;
+    font-weight: 600;
+}
