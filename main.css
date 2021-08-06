@@ -12,13 +12,13 @@
     /*background-color: black;*/
     display: flex;
     justify-content: center;
-    padding-top: 65px;
+    padding-top: 55px;
 }
 /*MERCHANDISE CAPS AND HOODIES*/
 .main {
-    padding-top: 30px;
+    padding-top: 15px;
     /*background-color: black;*/
-    height: 45vh;
+    height: 43.3vh;
     display: flex;
     justify-content: center;
 }
@@ -46,7 +46,7 @@
 }
 /*BRAND NEW HODDIES AND HATS ONLINE*/
 .newmerch {
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 50px;
 /*    background-color: black;*/
     display:flex;
@@ -68,7 +68,7 @@
     
 }
 
-.btn1 {
+/*.btn1 {
     padding: 9px;
     background-color: blanchedalmond;
     font-size: 15px;
@@ -79,4 +79,32 @@
     background-color: dimgray;
     font-size: 15px;
     font-weight: 600;
+}*/
+
+.btn1  {
+    padding: 13px 28px; /*set padding around button 13 height 28 width*/
+    background-color: rgba(217, 208, 222 1); /*set background colour of button*/
+    border: none; /*set no border*/
+    /*border-radius: 20px; /*curve edges on button*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px; /*set font size on button*/
+    font-weight: 600; /*set how dark font is*/
+    cursor: pointer; /*makes pointer change to a hand when it hovers over the button*/
+    transition: all 0.5s; /*makes button change from rounded edges to square slowly using a bezier curve*/
+}
+
+.btn2  {
+    padding: 13px 28px; /*set padding around button 13 height 28 width*/
+    background-color: rgba(217, 208, 222 1); /*set background colour of button*/
+    border: none; /*set no border*/
+    /*border-radius: 20px; /*curve edges on button*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px; /*set font size on button*/
+    font-weight: 600; /*set how dark font is*/
+    cursor: pointer; /*makes pointer change to a hand when it hovers over the button*/
+    transition: all 0.5s; /*makes button change from rounded edges to square slowly using a bezier curve*/
+
+.btn:hover {
+    border-radius: 0; /*makes button change from rounded edges to square*/
+    background-color: rgba(217, 208, 222 1); /*sets density of button when hovered over*/
 }
