@@ -6,8 +6,9 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 8px;
+    font-size: 12px;
     color: floralwhite;
+    font-weight: 300;
 }
 
 
@@ -31,6 +32,14 @@ body {
 }
 
 /*FOOTER*/
+.footer a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: floralwhite;
+    font-weight: 300;
+}
+
+
 .footer {
     height: 40vh;
 }
@@ -60,6 +69,13 @@ body {
     flex-wrap: wrap;
     align-items: center;
 
+}
+
+.last_line {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
 }
 
 /*BUTTONS*/
