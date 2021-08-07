@@ -10,7 +10,9 @@ body {
     color: floralwhite;
     font-weight: 300;
 }
-
+ .main-content {
+     height: 80vh;
+ }
 
 .background {
     background-image: url(./images/background-for-site-1.png);
@@ -41,7 +43,7 @@ body {
 
 
 .footer {
-    height: 40vh;
+    height: 10vh;
 }
 /*FOUR SYMBOLS*/
 .symbols {
@@ -49,7 +51,7 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    padding-top: 48px;
+    padding-top: 28px;
 }
 
 .swansong {
@@ -76,6 +78,12 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.last_line a {
+    text-decoration: none;
+
 }
 
 /*BUTTONS*/
@@ -85,9 +93,11 @@ body {
     flex-direction: row;
     justify-content:center;
     flex-wrap:wrap; 
-    padding-bottom: 60px;
+    padding-bottom: 0px;
     border: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;        
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+        
 }
 
 
@@ -99,6 +109,13 @@ body {
     font-size: 18px; /*set font size on button*/
     font-weight: 600; /*set how dark font is*/
     
+    
+}
+
+.btn1 a {
+    text-decoration: none;
+    color: black;
+
 }
 
 .btn2  {
@@ -108,4 +125,11 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px; /*set font size on button*/
     font-weight: 600; /*set how dark font is*/
+}
+
+.btn2 a {
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 20px;
+
 }
