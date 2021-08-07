@@ -4,6 +4,13 @@
     padding: 0;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    color: floralwhite;
+}
+
+
 .background {
     background-image: url(./images/background-for-site-1.png);
 }
@@ -25,7 +32,6 @@
 
 /*FOOTER*/
 .footer {
- /*   background-color: black;*/
     height: 40vh;
 }
 /*FOUR SYMBOLS*/
