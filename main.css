@@ -4,12 +4,15 @@
     padding: 0;
 }
 
+
+
+/*MAIN CONTENT STYLE
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: floralwhite;
     font-weight: 300;
-}
+}*/
  .main-content {
      height: 80vh;
  }
@@ -25,7 +28,7 @@ body {
     padding-top: 55px;
 }
 /*MERCHANDISE CAPS AND HOODIES*/
-.main {
+.merch {
     padding-top: 15px;
     /*background-color: black;*/
     height: 43.3vh;
@@ -33,34 +36,14 @@ body {
     justify-content: center;
 }
 
-/*FOOTER*/
-.footer a {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    color: floralwhite;
-    font-weight: 300;
-}
-
-
-.footer {
-    height: 10vh;
-}
-/*FOUR SYMBOLS*/
-.symbols {
+.merchtxt {
+    /*background-color: red;*/
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
-    padding-top: 28px;
+    padding-top: 15px;
 }
 
-.swansong {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    
-}
 /*BRAND NEW HODDIES AND HATS ONLINE*/
 .newmerch {
     padding-top: 15px;
@@ -72,8 +55,88 @@ body {
     align-items: center;
 
 }
+/*BUTTONS*/
+.buttons {
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap:wrap; 
+    padding-top: 75px;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
-.last_line {
+.btn1  {
+    padding: 12px 20px; /*set padding around button 13 height 28 width*/
+    background-color: white;
+    border: none; /*set no border*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px; /*set font size on button*/
+    font-weight: 600; /*set how dark font is*/
+    border-radius: 5px;    
+}
+
+.btn1 a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.btn2  {
+    padding: 12px 20px; /*set padding around button 13 height 28 width*/
+    background-color:dimgray; /*set background colour of button*/         /*NOTE Change font on button 2*/
+    border: none; /*set no border*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px; /*set font size on button*/
+    font-weight: 600; /*set how dark font is*/
+    border-radius: 5px;
+}
+
+.btn2 a {
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 20px;
+
+}
+
+/*FOUR SYMBOLS*/
+.symbols {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 105px;
+}
+
+
+
+
+
+/*FOOTER STYLE*/
+.footer a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: floralwhite;
+    font-weight: 300;
+}
+
+
+.footer {
+    height: 10vh;
+}
+
+
+.swansong {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+
+.last_line_txt {
     flex-direction: row;
     display: flex;
     justify-content: center;
@@ -86,50 +149,4 @@ body {
 
 }
 
-/*BUTTONS*/
-.buttons {
-    
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    flex-wrap:wrap; 
-    padding-bottom: 0px;
-    border: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
-        
-}
 
-
-.btn1  {
-    padding: 13px 35px; /*set padding around button 13 height 28 width*/
-    background-color: blanchedalmond;
-    border: none; /*set no border*/
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px; /*set font size on button*/
-    font-weight: 600; /*set how dark font is*/
-    
-    
-}
-
-.btn1 a {
-    text-decoration: none;
-    color: black;
-
-}
-
-.btn2  {
-    padding: 13px 35px; /*set padding around button 13 height 28 width*/
-    background-color:dimgray; /*set background colour of button*/
-    border: none; /*set no border*/
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px; /*set font size on button*/
-    font-weight: 600; /*set how dark font is*/
-}
-
-.btn2 a {
-    text-decoration: none;
-    color: blanchedalmond;
-    font-size: 20px;
-
-}
