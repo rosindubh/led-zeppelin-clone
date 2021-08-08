@@ -9,7 +9,7 @@
 }
 
  .main-content {
-     height: 80vh;
+     height: 100vh;
      /*background-color: red;*/
  }
 
@@ -23,7 +23,7 @@
 }
 /*MERCHANDISE CAPS AND HOODIES*/
 .merch {
-    padding-top: 15px;
+    padding-top: 17px;
     /*background-color: black;*/
     display: flex;
     justify-content: center;
@@ -62,7 +62,7 @@
 
 .btn1  {
     padding: 12px 20px; /*set padding around button 13 height 28 width*/
-    background-color: white;
+    background-color:#f8e2cb;
     border: none; /*set no border*/
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px; /*set font size on button*/
@@ -78,7 +78,7 @@
 
 .btn2  {
     padding: 12px 20px; /*set padding around button 13 height 28 width*/
-    background-color:dimgray; /*set background colour of button*/         /*NOTE Change font on button 2*/
+    background-color:  #343a40; /*set background colour of button*/         /*NOTE Change font on button 2*/
     border: none; /*set no border*/
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px; /*set font size on button*/
@@ -88,7 +88,7 @@
 
 .btn2 a {
     text-decoration: none;
-    color: blanchedalmond;
+    color: white;
     font-size: 20px;
 
 }
@@ -108,7 +108,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    padding-top: 30px;
+    padding-top: 15px;
 }
 
 
@@ -124,8 +124,7 @@
 }
 
 .footer {
-    height: 10vh;
-    background-color: royalblue;
+    /*background-color: royalblue;*/
 }
 
 .last_line_txt {
@@ -134,6 +133,8 @@
     justify-content: center;
     padding-top: 5px;
     padding-bottom: 15px;
+    font-size: 10px;
+    color: white;
 }
 
 .last_line a {
